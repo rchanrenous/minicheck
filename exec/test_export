@@ -1,0 +1,28 @@
+export aa=salut
+env | grep aa=
+export =salut
+env | grep salut
+export bb=
+env | grep bb=
+export 1var=salut
+env | grep 1var=
+export 1var
+env | grep 1var=
+export 1var=
+env | grep 1var=
+export +var=salut
+env | grep +var
+export var1=hello
+env | grep var1
+export _var=UNDERSCORE
+env | grep _var=
+export 1salut=var _var=UNDERSCORE
+env | grep _var=
+export var1=a 1var=3 avare=argent
+env | grep var1=
+env | grep 1var=
+env | grep avare=
+export aaa
+env | grep aaa=
+export aa=100 aaa
+env | grep aa=

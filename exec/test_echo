@@ -1,0 +1,16 @@
+echo
+echo echo
+echo -n salut ca va
+echo -nnnnn salut ca va
+echo -n
+echo -nnnnnn
+echo -nnnnnni
+echo salut -n ca va
+echo salut -nnn ca va
+echo salut -nN ca va
+echo salut -n
+echo salut -nnnnnnnn
+echo salut ca va -n
+echo salut ca va -nnn
+echo salut -n -n
+echo salut -nggrwg -n

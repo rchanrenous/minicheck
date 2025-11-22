@@ -1,0 +1,8 @@
+export a=salut
+unset a
+unset    b
+unset a=salut
+unset a+
+unset USER
+echo $USER
+unset

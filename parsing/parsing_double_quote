@@ -1,0 +1,12 @@
+echo salut
+echo "salut"
+echo "sal"ut
+echo sa"lu"t
+echo salu"t"
+echo salut""
+echo sa""lut
+echo ""salut
+echo "" salut
+echo "salut ca va"
+echo "salut" "ca" "va"
+echo "salut"       "oui"

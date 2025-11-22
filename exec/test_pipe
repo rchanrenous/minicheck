@@ -1,0 +1,5 @@
+echo salut | cat
+ls | cat
+ls | cat qweqweqweqwe
+cat wqeqweqwe | cat
+cat qwerty | cat azerty

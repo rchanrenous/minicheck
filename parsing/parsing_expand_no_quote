@@ -1,0 +1,35 @@
+echo $USER
+echo $USERR
+echo $USERsalut
+echo $USERRsalut
+echo $+
+echo $+salut
+echo salut
+export a=hello
+export b=world
+echo 
+echo salut
+echo salut
+echo sa lut
+echo $ 
+echo $
+echo $ a
+echo $       salut
+echo $a
+echo $b
+echo $a$b
+echo $a salut $b
+echo $asalut$b
+echo $"a"
+echo $'a'
+echo $1var
+export c=$
+echo $c"USER"
+echo $c'USER'
+echo $c+USER
+echo $1salut
+echo $1'salut'
+echo $1"salut"
+echo $42salut
+echo $42'salut'
+echo $42"salut"

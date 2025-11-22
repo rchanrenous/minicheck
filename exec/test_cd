@@ -1,0 +1,87 @@
+export DIR="$PWD"
+cd src
+echo $PWD
+echo $OLDPWD
+cd src    
+echo $PWD
+echo $OLDPWD
+cd ..
+echo $PWD
+echo $OLDPWD
+cd .
+echo $PWD
+echo $OLDPWD
+cd ..
+echo $PWD
+echo $OLDPWD
+cd $DIR
+echo $PWD
+echo $OLDPWD
+mkdir test_dir
+chmod 000 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 100 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 200 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 300 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 400 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 500 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 600 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+chmod 700 test_dir
+cd test_dir
+echo $?
+echo $PWD
+echo $OLDPWD
+cd $DIR
+rmdir test_dir
+unset HOME
+cd
+cd            
+mkdir -p a/b
+cd a/b
+rm -rf ../../a
+cd ..
+echo $PWD $OLDPWD
+cd ..
+echo $PWD $OLDPWD
+mkdir -p a/b
+cd a/b
+rm -rf ../../a
+unset PWD
+cd ..
+echo $PWD $OLDPWD
+cd ..
+echo $PWD $OLDPWD

@@ -1,0 +1,7 @@
+exit
+exit 42
+exit exit
+exit      
+exit -1
+exit 42 arg
+exit arg          arg

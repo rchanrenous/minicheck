@@ -1,0 +1,33 @@
+echo > script.sh "#!/usr/bin/bash"
+cp script.sh $HOME/bin/script_path.sh
+cp script.sh ./script_path.sh
+echo "echo PATH" >> $HOME/bin/script_path.sh
+echo "echo POINT" >> ./script_path.sh
+chmod u+x $HOME/bin/script_path.sh
+chmod u+x ./script_path.sh
+echo $PATH
+script_path.sh
+./script_path.sh
+export PATH="$HOME/bin:"
+script_path.sh
+./script_path.sh
+export PATH="$HOME/bin::"
+script_path.sh
+./script_path.sh
+export PATH=":$HOME/bin"
+script_path.sh
+./script_path.sh
+export PATH=""
+script_path.sh
+./script_path.sh
+unset PATH
+script_path.sh
+./script_path.sh
+export PATH="/usr/bin::$HOME/bin"
+script_path.sh
+./script_path.sh
+export PATH="/usr/bin"
+script_path.sh
+./script_path.sh
+rm script_path.sh $HOME/bin/script_path.sh script.sh
+./wewefwefwe

@@ -1,0 +1,25 @@
+echo "$USER"
+echo "$USERR"
+echo "$USER"salut
+echo "$USERR"salut
+echo "$+"
+echo "$+"salut
+echo "salut"
+export a=hello
+export b=world
+echo ""
+echo sa"lut"
+echo "sa""lut"
+echo "sa" "lut"
+echo "$a"
+echo "$b"
+echo "$a$b"
+echo "$a salut $b"
+echo "$a"salut"$b"
+echo "$1var"
+echo "$1salut"
+echo "$1"'salut'
+echo "$1""salut"
+echo "$42"salut
+echo "$42"'salut'
+echo "$42""salut"

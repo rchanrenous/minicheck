@@ -1,6 +1,6 @@
-all: minishell parsing exec
-	./test_exec.sh
+all: minishell
 	./test_parsing.sh
+	./test_exec.sh
 
 minishell:
 	make -C ..

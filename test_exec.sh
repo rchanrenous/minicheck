@@ -2,7 +2,7 @@
 
 minishell_exec="../minishell"
 dir_test_files="exec/"
-test_files="test_cd test_echo test_pwd test_export test_unset test_exit test_path test_pipe"
+test_files="test_cd test_echo test_pwd test_export test_unset test_hd test_hd_arg_nq test_exit test_path test_pipe"
 EXIT_STATUS=0
 
 RED='\033[0;31m'

@@ -1,0 +1,67 @@
+cat << $USER
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+rchan-re
+$USER
+cat << 'end'$USER
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+'end'$USER
+endrchan-re
+end$USER
+cat << 'end'$USER
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+endrchan-re
+end$USER
+cat << $USE
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+
+$USE
+cat << 'end'$USE
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+'end'$USE
+end
+end$USE

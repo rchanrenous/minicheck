@@ -1,0 +1,48 @@
+cat << '$USER'
+$+
+'$+'
+"$+"
+$"+"
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+$USER    
+$USER
+cat << "$USER"
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$'USER'
+$USER$USER
+'$USER'
+$"USER"
+"$USER"
+$USER
+cat << "$USE"
+$+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+"$USE"
+$USE
+cat << $+
+'$+'
+"$+"
+$"+"
+$USER    
+$"USER"
+$'USER'
+$USER$USER
+"$USER"
+'$USER'
+$+

@@ -19,8 +19,8 @@ A one way to do so is to use the `isatty()` function to detect whether the stand
 
 Clone the project at the root of the `minishell` program: a Makefile that builds `minishell` should be present here; then `cd` into that repository.
 ```
-git clone git@github.com:rchanrenous/42_minicheck.git
-cd 42_minicheck
+git clone git@github.com:rchanrenous/minicheck.git
+cd minicheck
 ```
 The tests are separated into *parsing* and *exec* tests.\
 Use `make` to test both type of tests.\

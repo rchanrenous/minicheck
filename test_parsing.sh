@@ -46,7 +46,7 @@ do
 		cat diff_stderr
 		EXIT_STATUS=1
 	else
-		echo -e "DIFF STDOUT: $GREEN OK $NC"
+		echo -e "DIFF STDERR: $GREEN OK $NC"
 	fi
 	rm -f $minishell_stdout $bash_stdout $minishell_stderr $bash_stderr diff_stdout diff_stderr $file'_exit_status'
 done

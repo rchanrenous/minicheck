@@ -1,4 +1,4 @@
-all: minishell
+all:		minishell
 	./test_parsing.sh
 	./test_exec.sh
 
@@ -11,4 +11,12 @@ parsing:	minishell
 exec:		minishell
 	./test_exec.sh
 
-.PHONY: all minishell parsing exec
+clean:
+	make -C .. clean
+
+fclean:
+	make -C .. fclean
+
+re:			fclean all
+
+.PHONY: all minishell parsing exec clean fclean re
